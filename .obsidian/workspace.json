@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WriteUps/Hackthe Box.md",
+                "file": "Notes/Test 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WriteUps/Hackthe Box.md",
+                "file": "Notes/Test 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WriteUps/Hackthe Box.md",
+                "file": "Notes/Test 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WriteUps/Hackthe Box.md"
+                "file": "Notes/Test 2.md"
               }
             }
           },
@@ -156,8 +156,8 @@
   },
   "active": "f47d4428ba0e6d2e",
   "lastOpenFiles": [
-    "Notes/Test 2.md",
     "WriteUps/Hackthe Box.md",
+    "Notes/Test 2.md",
     "WriteUps",
     "Notes/Test.md",
     "Notes",

@@ -1,1 +1,7 @@
-{}
+{
+  "cssTheme": "Mado Miniflow",
+  "accentColor": "#53d08f",
+  "monospaceFontFamily": "",
+  "interfaceFontFamily": "Fira Code",
+  "textFontFamily": "Fira Code"
+}
