@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Test.md",
+                "file": "WriteUps/Hackthe Box.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Test.md",
+                "file": "WriteUps/Hackthe Box.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Test.md",
+                "file": "WriteUps/Hackthe Box.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Test.md"
+                "file": "WriteUps/Hackthe Box.md"
               }
             }
           },
@@ -154,8 +154,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "579d9f426b573ad3",
+  "active": "f47d4428ba0e6d2e",
   "lastOpenFiles": [
+    "Notes/Test 2.md",
+    "WriteUps/Hackthe Box.md",
+    "WriteUps",
     "Notes/Test.md",
     "Notes",
     "obsidian-vault"
