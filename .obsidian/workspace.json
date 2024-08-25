@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3778a2fcc422f02b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TryHackMe/WriteUps/Simple CTF.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TryHackMe/WriteUps/Ignite.md",
+                "file": "TryHackMe/WriteUps/Simple CTF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TryHackMe/WriteUps/Ignite.md",
+                "file": "TryHackMe/WriteUps/Simple CTF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TryHackMe/WriteUps/Ignite.md"
+                "file": "TryHackMe/WriteUps/Simple CTF.md"
               }
             }
           },
@@ -154,21 +167,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f47d4428ba0e6d2e",
+  "active": "39b94851bdfe2352",
   "lastOpenFiles": [
+    "Notes/HackTheBox/Learning Process.md",
     "TryHackMe/WriteUps/Simple CTF.md",
     "TryHackMe/WriteUps/Ignite.md",
     "TryHackMe/WriteUps/Blog.md",
+    "TryHackMe/assets/img/THM-Writeups/Blog/nmap-scan.png",
+    "TryHackMe/assets/img/THM-Writeups/Ignite/fuel-cms-4.png",
+    "Notes/HackTheBox",
+    "Notes/Test.md",
+    "Notes/Test 2.md",
     "TryHackMe/assets/img/THM-Writeups/Blog/msfconsole.png",
     "TryHackMe/assets/img/THM-Writeups/Blog/root.txt.png",
     "TryHackMe/assets/img/THM-Writeups/Blog/user.txt.png",
     "TryHackMe/assets/img/THM-Writeups/Blog/suid-check.png",
     "TryHackMe/assets/img/THM-Writeups/Blog/shell.png",
-    "TryHackMe/assets/img/THM-Writeups/Blog/nmap-scan.png",
     "TryHackMe/assets/img/THM-Writeups/Blog/wp-dashboard.png",
     "TryHackMe/assets/img/THM-Writeups/Blog/web-username.png",
     "TryHackMe/assets/img/THM-Writeups/Blog/wp-username.png",
-    "TryHackMe/assets/img/THM-Writeups/Blog/smb-access.png",
     "TryHackMe/assets/img/THM-Writeups/Blog",
     "TryHackMe/assets/img/THM-Writeups/Ignite",
     "Ignite",
@@ -176,11 +193,8 @@
     "TryHackMe/assets/img/THM-Writeups",
     "TryHackMe/assets/img",
     "TryHackMe/assets",
-    "Notes/Test 2.md",
     "TryHackMe/WriteUps",
     "TryHackMe",
-    "WriteUps/Hackthe Box.md",
-    "WriteUps",
-    "Notes/Test.md"
+    "WriteUps/Hackthe Box.md"
   ]
 }
