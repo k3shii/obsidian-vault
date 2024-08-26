@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TryHackMe/WriteUps/Simple CTF.md",
+                "file": "Notes/HackTheBox/Getting Started.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TryHackMe/WriteUps/Simple CTF.md",
+                "file": "Notes/HackTheBox/Getting Started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TryHackMe/WriteUps/Simple CTF.md",
+                "file": "Notes/HackTheBox/Getting Started.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TryHackMe/WriteUps/Simple CTF.md"
+                "file": "Notes/HackTheBox/Getting Started.md"
               }
             }
           },
@@ -169,8 +169,9 @@
   },
   "active": "3778a2fcc422f02b",
   "lastOpenFiles": [
-    "TryHackMe/WriteUps/Ignite.md",
     "TryHackMe/WriteUps/Simple CTF.md",
+    "Notes/HackTheBox/Getting Started.md",
+    "TryHackMe/WriteUps/Ignite.md",
     "Notes/HackTheBox/Learning Process.md",
     "TryHackMe/WriteUps/Blog.md",
     "TryHackMe/assets/img/THM-Writeups/Blog/nmap-scan.png",
