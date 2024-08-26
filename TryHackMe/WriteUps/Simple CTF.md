@@ -1,5 +1,5 @@
 
-![[logo.png]]
+![[logo.png|875]]
 
 Link: https://tryhackme.com/r/room/easyctf
 

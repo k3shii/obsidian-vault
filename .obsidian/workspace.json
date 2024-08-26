@@ -167,11 +167,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "39b94851bdfe2352",
+  "active": "3778a2fcc422f02b",
   "lastOpenFiles": [
-    "Notes/HackTheBox/Learning Process.md",
-    "TryHackMe/WriteUps/Simple CTF.md",
     "TryHackMe/WriteUps/Ignite.md",
+    "TryHackMe/WriteUps/Simple CTF.md",
+    "Notes/HackTheBox/Learning Process.md",
     "TryHackMe/WriteUps/Blog.md",
     "TryHackMe/assets/img/THM-Writeups/Blog/nmap-scan.png",
     "TryHackMe/assets/img/THM-Writeups/Ignite/fuel-cms-4.png",
