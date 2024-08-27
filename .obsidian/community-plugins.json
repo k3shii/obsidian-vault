@@ -1,5 +1,8 @@
 [
   "obsidian-git",
   "obsidian-discordrpc",
-  "obsidian-image-toolkit"
+  "obsidian-image-toolkit",
+  "table-editor-obsidian",
+  "make-md",
+  "obsidian-trash-explorer"
 ]
