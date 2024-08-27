@@ -4,29 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "8fdf4c002fec9c78",
+        "id": "83fe00b2a209d217",
         "type": "tabs",
         "children": [
           {
-            "id": "f47d4428ba0e6d2e",
+            "id": "12322a15960de835",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Notes/1.0 HTB-CPTS/Getting Started.md",
                 "mode": "source",
-                "backlinks": true,
+                "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "78ee6c1c2bc5c05b",
-            "type": "leaf",
-            "state": {
-              "type": "mk-uri-view",
-              "state": {
-                "path": "https://www.make.md/static/latest.md"
               }
             }
           }
@@ -83,9 +73,16 @@
               "type": "mk-path-view",
               "state": {}
             }
+          },
+          {
+            "id": "3ccf261873b5739d",
+            "type": "leaf",
+            "state": {
+              "type": "trash-explorer",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -156,6 +153,14 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "b1baab500eb3654c",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
         "currentTab": 4
@@ -173,40 +178,48 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-trash-explorer:Open trash explorer": false
+      "obsidian-trash-explorer:Open trash explorer": false,
+      "attachment-manager:Toggle visibility of attachment folder": false
     }
   },
   "active": "39b94851bdfe2352",
   "lastOpenFiles": [
+    "Notes/1.0 HTB-CPTS/assets/img/Getting Started",
+    "Notes/1.0 HTB-CPTS/assets/img/Getting Started/Getting Started.md_Attachments/Getting Started-20240827232613650.png",
+    "Notes/1.0 HTB-CPTS/assets/img/Getting Started/Getting Started.md_Attachments/Getting Started-20240827232448090.png",
+    "Notes/1.0 HTB-CPTS/assets/img/Getting Started/Getting Started.md_Attachments/Getting Started-20240827232334438.png",
+    "Notes/1.0 HTB-CPTS/assets/img/Getting Started/Getting Started.md_Attachments",
+    "Notes/1.0 HTB-CPTS/assets/img/cpts-banner-2.jpg",
+    "Notes/1.0 HTB-CPTS/assets/img/cpts-banner.jpg",
+    "Notes/1.0 HTB-CPTS/assets/img",
+    "Notes/1.0 HTB-CPTS/assets",
     "Notes/1.0 HTB-CPTS/1.0 HTB-CPTS.md",
     "Notes/Notes.md",
+    "Notes/1.0 HTB-CPTS/Getting Started.md",
+    "Notes/1.0 HTB-CPTS/Untitled.md",
+    "Untitled.canvas",
+    "Notes/Untitled.md",
+    "Writeups/TryHackMe/WriteUps/Blog.md",
     "Writeups/Writeups.md",
+    "2024-08-27.md",
+    "Writeups.md",
+    "Vault.md",
+    "Notes/1.0 HTB-CPTS/assets/assets.md",
     "Writeups",
     "TryHackMe/Writeups.md",
-    "Vault.md",
     "Notes",
-    "Notes/1.0 HTB-CPTS/Getting Started.md",
     "Writeups/TryHackMe/assets/img/THM-Writeups/Ignite/searchsploit.png",
     "Writeups/TryHackMe/assets/img/THM-Writeups/Ignite/user-flag.png",
     "Writeups/TryHackMe/assets/img/THM-Writeups/Ignite/run-exploit.png",
     "Writeups/TryHackMe/assets/img/THM-Writeups/Ignite/gobuster.png",
     "Writeups/TryHackMe/assets/img/THM-Writeups/Ignite/root-access.png",
-    "Writeups/TryHackMe/assets/img/THM-Writeups/Ignite/fuel-dashboard.png",
-    "Writeups/TryHackMe/assets/img/THM-Writeups/Ignite/fuel-cms-4.png",
-    "Writeups/TryHackMe/assets/img/THM-Writeups/Ignite/fuel-cms-3.png",
-    "Writeups/TryHackMe/assets/img/THM-Writeups/Ignite/fuel-cms-2.png",
-    "Writeups/TryHackMe/assets/img/THM-Writeups/Ignite/fuel-cms-1.png",
     "Writeups/TryHackMe/assets/img/THM-Writeups/Ignite",
     "Writeups/TryHackMe/assets/img/THM-Writeups/Simple-CTF",
     "Writeups/TryHackMe/assets/img/THM-Writeups/Blog",
     "Writeups/TryHackMe/assets/img/THM-Writeups",
     "Writeups/TryHackMe/WriteUps/Simple CTF.md",
     "Writeups/TryHackMe/WriteUps/Ignite.md",
-    "Writeups/TryHackMe/WriteUps/Blog.md",
     "Writeups/TryHackMe/assets/img",
-    "Writeups/TryHackMe/WriteUps",
-    "Writeups/TryHackMe/assets",
-    "Writeups/TryHackMe",
     "Notes/HackTheBox/Getting Started.md",
     "Notes/HackTheBox/Learning Process.md",
     "Notes/Test.md",

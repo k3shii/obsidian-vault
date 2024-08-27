@@ -44,10 +44,17 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
+    "//Notes/Notes/1.0 HTB-CPTS",
+    "Notes/Notes/1.0 HTB-CPTS/Notes/1.0 HTB-CPTS/assets/Notes/1.0 HTB-CPTS/assets/img",
+    "Notes/Notes/1.0 HTB-CPTS/Notes/1.0 HTB-CPTS/assets",
     "/",
-    "//Tags",
     "Notes",
-    "Notes/Notes/1.0 HTB-CPTS"
+    "Writeups",
+    "Writeups/Writeups/TryHackMe",
+    "Writeups/Writeups/TryHackMe/Writeups/TryHackMe/WriteUps",
+    "Notes/Notes/1.0 HTB-CPTS",
+    "//Tags",
+    "//Notes"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -56,7 +63,10 @@
   "spacesFolder": "Tags",
   "suppressedWarnings": [],
   "spaceSubFolder": ".space",
-  "hiddenFiles": [],
+  "hiddenFiles": [
+    "Notes/1.0 HTB-CPTS/assets/img",
+    "Notes/1.0 HTB-CPTS/assets"
+  ],
   "hiddenExtensions": [
     ".mdb",
     "_assets",
