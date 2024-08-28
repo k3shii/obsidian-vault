@@ -52,9 +52,9 @@
     "Writeups",
     "Writeups/Writeups/TryHackMe",
     "Writeups/Writeups/TryHackMe/Writeups/TryHackMe/WriteUps",
-    "Notes/Notes/1.0 HTB-CPTS",
     "//Tags",
-    "//Notes"
+    "//Notes",
+    "Notes/Notes/1.0 HTB-CPTS"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

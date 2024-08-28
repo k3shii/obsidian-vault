@@ -182,8 +182,9 @@
       "attachment-manager:Toggle visibility of attachment folder": false
     }
   },
-  "active": "39b94851bdfe2352",
+  "active": "12322a15960de835",
   "lastOpenFiles": [
+    "Notes/1.0 HTB-CPTS/Getting Started.md",
     "Notes/1.0 HTB-CPTS/assets/img/Getting Started",
     "Notes/1.0 HTB-CPTS/assets/img/Getting Started/Getting Started.md_Attachments/Getting Started-20240827232613650.png",
     "Notes/1.0 HTB-CPTS/assets/img/Getting Started/Getting Started.md_Attachments/Getting Started-20240827232448090.png",
@@ -195,7 +196,6 @@
     "Notes/1.0 HTB-CPTS/assets",
     "Notes/1.0 HTB-CPTS/1.0 HTB-CPTS.md",
     "Notes/Notes.md",
-    "Notes/1.0 HTB-CPTS/Getting Started.md",
     "Notes/1.0 HTB-CPTS/Untitled.md",
     "Untitled.canvas",
     "Notes/Untitled.md",
@@ -219,7 +219,6 @@
     "Writeups/TryHackMe/assets/img/THM-Writeups",
     "Writeups/TryHackMe/WriteUps/Simple CTF.md",
     "Writeups/TryHackMe/WriteUps/Ignite.md",
-    "Writeups/TryHackMe/assets/img",
     "Notes/HackTheBox/Getting Started.md",
     "Notes/HackTheBox/Learning Process.md",
     "Notes/Test.md",
