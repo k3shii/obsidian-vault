@@ -82,7 +82,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -184,8 +185,8 @@
   },
   "active": "12322a15960de835",
   "lastOpenFiles": [
-    "Notes/1.0 HTB-CPTS/assets/img/Getting Started/Getting Started.md_Attachments/Getting Started-20240827232334438.png",
     "Notes/1.0 HTB-CPTS/Getting Started.md",
+    "Notes/1.0 HTB-CPTS/assets/img/Getting Started/Getting Started.md_Attachments/Getting Started-20240827232334438.png",
     "Notes/1.0 HTB-CPTS/assets/img/cpts-banner-2.jpg",
     "Notes/1.0 HTB-CPTS/assets/img/Getting Started",
     "Notes/1.0 HTB-CPTS/assets/img/Getting Started/Getting Started.md_Attachments/Getting Started-20240827232613650.png",
