@@ -11,12 +11,9 @@
             "id": "12322a15960de835",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Notes/1.0 HTB-CPTS/Getting Started.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Notes/1.0 HTB-CPTS/assets/img/Getting Started/Getting Started.md_Attachments/Getting Started-20240827232334438.png"
               }
             }
           }
@@ -102,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/1.0 HTB-CPTS/Getting Started.md",
+                "file": "Notes/1.0 HTB-CPTS/assets/img/Getting Started/Getting Started.md_Attachments/Getting Started-20240827232334438.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/1.0 HTB-CPTS/Getting Started.md",
+                "file": "Notes/1.0 HTB-CPTS/assets/img/Getting Started/Getting Started.md_Attachments/Getting Started-20240827232334438.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/1.0 HTB-CPTS/Getting Started.md"
+                "file": "Notes/1.0 HTB-CPTS/assets/img/Getting Started/Getting Started.md_Attachments/Getting Started-20240827232334438.png"
               }
             }
           },
@@ -182,15 +179,15 @@
       "attachment-manager:Toggle visibility of attachment folder": false
     }
   },
-  "active": "12322a15960de835",
+  "active": "579d9f426b573ad3",
   "lastOpenFiles": [
+    "Notes/1.0 HTB-CPTS/assets/img/cpts-banner-2.jpg",
     "Notes/1.0 HTB-CPTS/Getting Started.md",
     "Notes/1.0 HTB-CPTS/assets/img/Getting Started",
     "Notes/1.0 HTB-CPTS/assets/img/Getting Started/Getting Started.md_Attachments/Getting Started-20240827232613650.png",
     "Notes/1.0 HTB-CPTS/assets/img/Getting Started/Getting Started.md_Attachments/Getting Started-20240827232448090.png",
     "Notes/1.0 HTB-CPTS/assets/img/Getting Started/Getting Started.md_Attachments/Getting Started-20240827232334438.png",
     "Notes/1.0 HTB-CPTS/assets/img/Getting Started/Getting Started.md_Attachments",
-    "Notes/1.0 HTB-CPTS/assets/img/cpts-banner-2.jpg",
     "Notes/1.0 HTB-CPTS/assets/img/cpts-banner.jpg",
     "Notes/1.0 HTB-CPTS/assets/img",
     "Notes/1.0 HTB-CPTS/assets",
